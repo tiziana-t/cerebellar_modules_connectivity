@@ -61,17 +61,10 @@ for i in range(len(grc_conn_ids)):
     distance_y_list.append(dif_y)
     distance_z_list.append(dif_z)
 
-#ma a cosa serve fare questo?
-dist = []
-for i in range(len(distance_list)):
-    d = (sum ( (distance_list[i])**2 ))**0.5
-    print ( i, d )
-    dist.append( d )
-
-mean_distance = np.mean(dist)
-min_distance = np.min(dist)
-max_distance = np.max(dist)
-std_dist = np.std(dist)
+mean_distance = np.mean(distance)
+min_distance = np.min(distance)
+max_distance = np.max(distance)
+std_dist = np.std(distance)
 
 mean_distance_x = np.mean(distance_x_list)
 min_distance_x = np.min(distance_x_list)
