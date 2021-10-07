@@ -2,7 +2,7 @@
   "name": "DBBS Nest simulator configuration",
   "output": {
     "format": "bsb.output.HDF5Formatter",
-    "morphology_repository": "/home/tiziana/bsb/morphologies.hdf5",
+    "morphology_repository": "/home/tiziana/cerebellar_modules_connectivity/morphologies.hdf5",
     "file": "300x_200z_DCN_IO_translated.hdf5"
   },
   "network_architecture": {
