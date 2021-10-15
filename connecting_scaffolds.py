@@ -12,10 +12,6 @@ filename_merged = "test.hdf5"
 scaffold1 = from_hdf5(filename_h5)
 scaffold2 = from_hdf5(filename_h51)
 
-target_ct_name = 'parallel_fiber_to_purkinje'
-target_ct = scaffold2.configuration.connection_types[target_ct_name]
-print(target_ct)
-
 scaffolds = [scaffold1, scaffold2]
 labels = ['first', 'second']
 
